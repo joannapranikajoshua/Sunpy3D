@@ -55,16 +55,12 @@ The entire project is split into 3 major components which include:-
 - As of SunPy's standards, documentation is extremely important. The entire documentation process shall be written using **Sphinx** as SunPy uses it and I've worked with it extensively before.
 
 - Required documentation is a general order from writing the Index file followed by
-
-- Introduction.
-
-- Installation.
-
+- Introduction
+- Installation
 - Description of the package
-
-- Reference API which includes the class inheritance diagrams and function description required for the code that shall be written.
-
-- Contribution and release history.
+- Reference API which includes the class inheritance diagrams and function description required for the code that shall be written
+- Example Gallery
+- Contribution and release history
 
 - Sphinx's **Autodoc** allows the extensive documentation of classes and functions which makes use of the well-written docstrings in Python to create the required documentation. Therefore relevant docstrings are to be written that highlight the usage of every class and method with its required parameters and function.
 
