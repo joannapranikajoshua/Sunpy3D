@@ -10,9 +10,9 @@
 
 My open-source journey began with SunPy about 4 months ago, I enjoyed having to look at the visualization capabilities of SunPy and developed a keen interest in visualization while exploring the package and attempting to solve its issues. The efficient usage of python and purposeful open source contribution was the main drive for me.
 
-I have worked with Python as my primary programming language for over 3 years now and have a strong understanding of Python and Pyvista while contributing to SunPy continued to make me better at it.
+I have worked with Python as my primary programming language for over 3 years now and I have a strong understanding of Python and Pyvista while contributing to SunPy continued to make me better at it.
 
-I have been involved with contributing towards and understanding SunPy with its underlying libraries for about 4 months now which excites and gives me the confidence that I shall be able to complete the given project successfully and according to the required standards.
+I have been involved with contributing towards and understanding SunPy with its underlying libraries for about 4 months now which excites and gives me the confidence that I need to be able to complete the given project successfully and according to the required standards.
 
   
 
@@ -27,17 +27,17 @@ This project would include adding a separate python package that extends 3D plot
 The entire project is split into 3 major components which include:-
 
 #### 1) Package Infrastructure
-- As stated by the requirements, the entire project will consist of not only writing new code but also working towards combining the entire project into a usable python package that works accurately with SunPy.
+- The entire project will consist of not only writing new code but also working towards combining the entire project into a usable python package that works accurately with SunPy in accordance with the given standards.
 - The 3D PFSS field lines from Pfsspy shall also be implemented and tested carefully.
 - The underlying packages for 3D plotting would have to be listed out and this has to be carefully tested with different versions of the packages to make sure that this works with SunPy.
-- The existing code makes use of PyVista for 3D plotting functionality and all of the code for 3D plotting would make use of PyVista itself. Currently, there exists simple functionality for plotting any given `GenericMap` from SunPy to be plotted using Pyvista and this will be the baseline from where I would pick up on.
+- The existing code makes use of PyVista for 3D plotting functionality and all of the code for 3D plotting would make use of PyVista itself. Currently, there exists simple functionality for plotting any given `GenericMap` from SunPy to be plotted using Pyvista and this will be the baseline from where I would pick up from.
 - There are no bounds defined for 3D plotting capability and adding extra functionality for plotting Astropy's coordinates shall also be implemented.
 
   
 
 #### 2) Extensive documentation
 
-- As of SunPy standards, documentation is extremely important. The entire documentation process shall be written using **Sphinx** as SunPy uses it and I've worked with it extensively before.
+- As of SunPy standards, documentation is extremely important. The entire documentation process shall be written using **Sphinx** as SunPy uses the same. I am also well-versed in the same as I have worked with it extensively before.
 - Required documentation is a general order from writing the Index file followed by
 	- Introduction
 	- Installation
@@ -52,10 +52,10 @@ The entire project is split into 3 major components which include:-
 
 #### 3) Testing and Integration with SunPy and PfssPy
 
-- The entire project shall be tested efficiently wherever necessary.
+- The entire project shall be tested systematically wherever necessary.
 - Testing shall mainly be performed with **Tox**. The project shall be set up using tox according to SunPy's requirements.
 - If required, **Pytest** shall also be integrated into tox runs for figure and unit testing.
-- To ensure proper integration with SunPy and PfssPy, appropriate tests shall be written for this as well. Similar to how tests have been written for SunPy. 
+- To ensure proper integration with SunPy and PfssPy, appropriate tests shall be written for this as well. This will be done in a manner similar to how tests have been written for SunPy. 
 
 ## Implementation
 
@@ -68,12 +68,12 @@ Equal importance shall be given to both writing new code and extensively documen
 
 #### Successfully creating a new python package to provide 3D plotting for SunPy
 
-The existing code shall be worked on and improved to meet required standards and the entire project would be of a python package that can be installed and used with SunPy or Pfsspy for the extended 3D plotting functionality
+The existing code shall be worked on and improved to meet required standards and the entire project would be of a python package that can be installed and used with SunPy or Pfsspy for the extended 3D plotting functionality.
 
 #### Extending of SunPy's various 2D map plotting functionalities to 3D
 
 
-Various functions from SunPy's 2D GenericMap shall be implemented in 3D. The method of implementing animators and grids shall also be decided and imlemented.
+Various functions from SunPy's 2D GenericMap shall be implemented in 3D. The method of implementing animators and grids shall also be decided and implemented.
 These various methods and many more can be implemented in 3D by either plotting them as separate meshes using Pyvista or by altering the data that is projected by the map.
 
   
@@ -81,12 +81,12 @@ These various methods and many more can be implemented in 3D by either plotting 
 #### Well-written documentation for the written code.
 
 All of the code that already exists and all the new code shall be combined into a package with well-written documentation using **Sphinx**.
-Example plots shall be generated with a gallery reference in the documentation. All 3D plots shall be rendered in 2D for documentation purposes.
+Examples of plots shall be generated with a gallery reference in the documentation. All 3D plots shall be rendered in 2D for documentation purposes.
 
 #### Efficient Testing and Integration
 
 All of the newly implemented classes and methods shall be tested. Unit tests and Figure tests shall be written wherever required by using Tox and PyTest. 
-The appropriate 3D testing methodology shall also be researched and decided on.
+The appropriate 3D testing methodology shall also be looked into, researched and decided on.
 CircleCI shall also be implemented to handle cloud-based testing.
 
   
@@ -102,12 +102,12 @@ ___
 
   
 
-- I shall get familiar with the working of Sphinx and producing doctest with Sphinx, PyTest, and Tox.
+- I shall focus on getting familiar with the working of Sphinx and producing doctest with Sphinx, PyTest, and Tox.
 - Understand the main plot testing methodology. Currently, figure tests are performed through `pytest-mpl`. Either use a different figure testing methodology or test in accordance with the current figure testing method existing in SunPy which will be decided based on input from the mentors.
 - The existing code shall also be tested according to the various 3D plots on render. The plots shall be rendered using PyVista's show through Jupyter Notebook with the appropriate `cpos` location so the entire 3D plot is visible clearly from a 2D perspective especially for example plotting and testing.
 - I shall also spend time exploring the capabilities of 3D plotting and continuously add functionality such as the extension of plotting to `LASCO maps` and work on the exploration of magnetic field lines from `PfssPy`.
 
-- I shall also get familiar with the possibility of extending most of the 2D plotting functionality to 3D from SunPy.
+- I shall also familiarise myself with the possibility of extending most of the 2D plotting functionality to 3D from SunPy.
 
 ___
 
@@ -119,9 +119,9 @@ ___
 
 #### Week 1
 
-- Get started on working with the code documentation of the existing code. I have already gotten started on writing the docstrings and examples for plotting here.
-- Begin with the setting up of documentation via Sphinx and gain information regarding the types of testing that are required.
-- I shall also begin work on setting up the project for packaging.
+- I shall begin working with the code documentation of the existing code. I am already in the process of writing the docstrings and examples for plotting here;
+- Begin with the setting up of documentation via Sphinx and gain information regarding the types of testing that are required;
+- I shall also start setting up the project for packaging.
 
   
 
@@ -144,9 +144,9 @@ ___
 
   
 
-- First few days of this week shall go into implementing the tox environment with the set up of PyTest and Tox for unit testing.
+- The first few days of this week shall go into implementing the tox environment with the set up of PyTest and Tox for unit testing.
 - I shall display the required plot from 3D and save this image through `matplotlib` and thereby integrate it with `pytest-mpl`.
-- Next, I shall begin work on structuring the appropriate classes for the package as plots from SunPy as well as PfssPy have to be recreated in 3D and this would require writing new code for the appropriate 2D transformations in 3D. Some of the extra functionality would have to be vectored into the new package.
+- Next, I shall begin work on structuring the appropriate classes for the package as plots from SunPy as well as PfssPy have to be recreated in 3D. This would require writing new code for the appropriate 2D transformations in 3D. Further, some of the extra functionality would have to be vectored into the new package.
 - I shall begin work on setting up CircleCI for this project, the configuration files would have to be set up accordingly with Tox and `pytest-mpl`.
 
   
@@ -180,7 +180,7 @@ ___
 #### Week 6 - Week 7
 
   
-- This week I shall begin with writing the documentation of the correctly implemented methods according to the evaluation. I shall set up `Sphinx` and work towards writing clean and efficient documentation.
+- This week I shall begin by writing the documentation of the correctly implemented methods according to the evaluation. I shall set up `Sphinx` and work towards writing clean and efficient documentation.
 - The examples of all the created methods shall be loaded into a gallery and using Sphinx and create a `minigallery` for display in the documentation as well.
 - The required 3D testing methodology would have been extensively researched upon and a solid conclusion would have to be reached as to how to go about 3D testing with PyVista.
 - 
@@ -209,7 +209,7 @@ ___
 
 - I shall use this week to cross-check if all the implemented functionalities are what is required for the project. This will ensure I have worked towards implementing all of required the `sources` from SunPy and overplotting them with the required `field lines` from PfssPy.
 - By now all of the required coordinate objects from Astropy and 2D functionality from SunPy shall be properly implemented with the appropriate tests.
-- If any new requirements are requested by the mentors, they shall be implemented during these weeks and the testing of the new code as well.
+- If any new requirements are requested by my mentors, they shall be implemented during these weeks and the testing of the new code will be completed as well.
 - The documentation and docstrings shall again be tested with the complete implementation of all the `.rst` files and indexed according to what is required.
 - If other tests have to be performed, I shall implement this on `CircleCI` and check for their passing before any merging is done as mentioned before.
 - All of the required local tests would have been written by now and I shall also manually check if all the extended methods are tested.
@@ -245,9 +245,10 @@ ___
 -  [Added tests for map sequence animator](https://github.com/sunpy/sunpy/pull/5041) [visualization]
 -  [Added conversion of map data to float64 in GenericMap.rotate()](https://github.com/sunpy/sunpy/pull/5051) [visualization]
 
-I have enjoyed contributing to SunPy and will continue to do so regardless of GSoC. 
+I have enjoyed contributing to SunPy and will continue to do so in any event.
+Armed with an inclination towards Artificial Intelligence, I have worked as an intern at 3 separate AI-based companies and have worked majorly with Python. 
 I have worked with Python as a primary programming language as I have spent over 2 years working, researching, and developing in the field of Artificial Intelligence.
-I have worked as an intern at 3 separate AI-based companies and have worked majorly with Python. Solar Physics has gained my interest from my contributions to SunPy and from then on I have explored the visualization of SunPy with AstroPy.
+Solar Physics has gained my interest from my contributions to SunPy and from then on I have explored the visualization of SunPy with AstroPy.
 
 ## GSoC
 
@@ -264,11 +265,11 @@ No, I will only be applying to SunPy.
 
 ### Commitments
 
-I study at university but it takes about 7-8 hours of my day and my academic load is very less.
-I am open to working full time **~40 hours per week** and if required can work more if required.
-I don't have any plans for the Summer and I will be fully focusing on GSoc with SunPy.
+I have college and extra-curricular committments on week days but it takes only about 7-8 hours of my day. Further, my academic load is very less and I will be able to multi-task.
+I am open to working full time **~40 hours per week** or more if required.
+I do not have any plans for the Summer and I will devote all my time towards GSoc with SunPy.
 
  
 ### Eligibility
 
-Yes, I am eligible to receive payments from Google. For any queries or further explanations, feel free to contact me at jeffrey.paul2000@gmail.com
+Yes, I am eligible to receive payments from Google. For any queries, feel free to contact me at jeffrey.paul2000@gmail.com
